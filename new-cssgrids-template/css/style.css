@@ -49,7 +49,7 @@ header {
 	grid-column: 10/13;
 }
 
-#container-1 {
+#footer {
 	width: 89%;
 	margin: 20px auto;
 	display: grid;
@@ -91,4 +91,15 @@ header {
 	margin-right: 4%;
 	margin-top: 3%;
 	margin-bottom: 3%;
+}
+
+@media screen and (min-width: 1200px) {
+	#container, #footer {
+		width: 89%;
+	}
+}
+@media screen and (max-width 1200px and min-width: 960px) {
+	#container, #footer {
+		width: 89%;
+	}
 }
